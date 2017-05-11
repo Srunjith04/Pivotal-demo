@@ -7,6 +7,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+
 /**
  * Home object for domain model class Employee.
  * @see HIbernateSample.HIbernateSample.Employee
