@@ -7,7 +7,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-
 /**
  * Home object for domain model class Employee.
  * @see HIbernateSample.HIbernateSample.Employee
@@ -28,15 +27,8 @@ public class EmployeeHome {
 		    tx.begin();
 		} 
 		session.save(emp);
-		tx.commit();System.Net.WebException: An exception occurred during a WebClient request.
-		System.IO.IOException: The process cannot access the file 'C:\Users\srunj\AppData\Local\Atlassian\SourceTree\PortableGcmSt.7z' because it is being used by another process.
-
-		
-		
-		session.close();
 		System.out.println("successfully saved...");
-		/**
-		 *  load & get,delete,update,
-		 */
+		tx.commit();
+		session.close();
 	}
 }

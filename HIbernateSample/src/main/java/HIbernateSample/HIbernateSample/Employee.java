@@ -7,7 +7,6 @@ package HIbernateSample.HIbernateSample;
  */
 public class Employee implements java.io.Serializable {
 
-	
 	private int id;
 	private String username;
 	private String street;

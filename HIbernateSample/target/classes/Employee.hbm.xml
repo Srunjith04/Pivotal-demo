@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 10, 2017 2:52:38 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="HIbernateSample.HIbernateSample.Employee" table="employee" catalog="chandra">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="username" type="string">
+            <column name="USERNAME" />
+        </property>
+        <property name="street" type="string">
+            <column name="STREET" />
+        </property>
+        <property name="city" type="string">
+            <column name="CITY" />
+        </property>
+        <property name="country" type="string">
+            <column name="COUNTRY" />
+        </property>
+    </class>
+</hibernate-mapping>
