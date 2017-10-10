@@ -3,7 +3,7 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated May 10, 2017 2:52:38 PM by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
-    <class name="HIbernateSample.HIbernateSample.Employee" table="employee" catalog="chandra">
+    <class name="HIbernateSample.HIbernateSample.Employee" table="employee">
         <id name="id" type="int">
             <column name="ID" />
             <generator class="increment" />

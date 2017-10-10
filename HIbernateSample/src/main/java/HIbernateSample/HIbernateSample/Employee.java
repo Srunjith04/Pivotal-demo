@@ -12,6 +12,7 @@ public class Employee {
 	private String street;
 	private String city;
 	private String country;
+	private String number;
 
 	public int getId() {
 		return this.id;
@@ -53,4 +54,13 @@ public class Employee {
 		this.country = country;
 	}
 
+	public String getNumber() {
+		return number;
+	}
+
+	public void setNumber(String number) {
+		this.number = number;
+	}
+
+	
 }

@@ -19,6 +19,7 @@ public class EmployeeHome {
 	public static void main(String[] args) throws Exception{
 		Employee emp= new Employee();
 		emp.setUsername("chandra");
+		emp.setUsername("Reddy");
 		emp.setStreet("Dunwoody");
 		emp.setCity("Atlanta");
 		emp.setCountry("USA");
@@ -28,7 +29,7 @@ public class EmployeeHome {
 		if (!tx.isActive()) {
 			tx.begin();
 		} 
-		//session.save(emp);
+		session.save(emp);
 		System.out.println("successfully saved...");
 		//tx.commit();
 		Employee emp1 = (Employee)session.load(Employee.class, 7);
